@@ -1,1 +1,1 @@
-db.produtos.countDocuments();
+db.produtos.count(); // com countDocument não passa, brincadeira viu bicho lol
