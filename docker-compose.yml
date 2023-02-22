@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  mongodb:
+    image: mongo:5.0
+    container_name: mongodb_commerce
+    restart: always
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - 27017:27017
