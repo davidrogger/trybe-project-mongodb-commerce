@@ -1,0 +1,1 @@
+docker exec -it mongodb_commerce bash ./scripts/resetdb.sh
