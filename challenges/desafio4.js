@@ -10,8 +10,7 @@ db.produtos.find(
     nome: true,
     vendidos: true,
   },
-)
-.sort(
+).sort(
   {
     vendidos: 1,
   },
