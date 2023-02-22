@@ -2,7 +2,8 @@
 
 ## Seção: `Intro ao MongoDB`
 
-- lore
+- Apresentado o NoSQL e seu significado `Not Only SQL`, com sua história e seus tipos de classes(Key/Value, Column Family, Document e Graph).
+- Após apresentado NoSQL, foco foi voltado ao uso do MongoDB que se enquadra na classe de Documentos, que é uma classe mais flexível e com amapla aderência em vários casos de uso, com seus dados armazenados em estilo JSON, com vários níveis e subníveis.
 
 #
 <div align="center">
@@ -21,7 +22,7 @@
 #
 ## Projeto: `Mongodb Commerce`
 
-- lore
+- Essa atividade prática, foi proposto uso de comandos para filtrar, buscar, editar e deletar informações dentro de um banco de dados MongoDB.
 
 # Tecnologias e ferramentas usadas 🛠
 
@@ -29,7 +30,9 @@
 
 # Desafios
 
-- lore
+- Alterar documentos com métodos de update com operadores simples;
+- Alterar documentos com operações complexos e modificadores;
+- Construir queries e expressões complexas utilizando índices textuais e expressões regulares.
 
 # Conclusão
 
