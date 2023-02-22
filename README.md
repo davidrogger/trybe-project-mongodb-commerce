@@ -114,7 +114,11 @@
   1. Localmente: `./scripts/resetdb.sh`.
   2. Docker: `./scripts/docker_resetdb.sh`.
 
-  Agora para testar os comando é possivel via o terminal acessando `docker exec -it mongodb_commerce mongo` ou usando alguma ferramenta de preferencia para conectar ao mongodb e usar os comandos. Normalmente uso o [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
+  Agora para testar os comando é possivel via o terminal acessando:
+  1. Localmente: `mongo`
+  2. Docker: `docker exec -it mongodb_commerce mongo`
+  
+  Ou usando alguma ferramenta de preferencia para conectar ao mongodb e usar os comandos. Normalmente uso o [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
 
 </details>
 
