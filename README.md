@@ -36,7 +36,7 @@
 
 # Conclusão
 
-- lore
+- Pela familiaridade com javascript, a adaptação com mongodb foi extremamente rápida e de fácil compreenção, foi mais entender a sintaxe de algumas buscas com operators, como era sua estrutura e funcionamento, e realmente conhecer as ferramentas que são oferecidas pelo mongo.
 
 </details>
 
@@ -94,6 +94,27 @@
   </summary>
 
   - [x] - ~~Criar aplicação com base nos requisitos da trybe.~~ ![data](https://badgen.net/badge/delivery/08-08-2022/green)
+
+</details>
+
+<details>
+  <summary>
+    <strong>
+      :test_tube: Testando comandos
+    </strong>
+  </summary>
+
+  Os comandos para realizar cada requisito solicitado pela trybe, estão nesta pasta de [challenges](https://github.com/davidrogger/trybe-project-mongodb-commerce/tree/readme-update/challenges).
+  É necessário ter o mongo instalado ou o docker para rodar o compose que tem o mongo, criei um compose na raiz do projeto, basta usar o `docker compose up -d`.
+  Baseado nos scripts da trybe, eu critei alguns scripts para popular um banco mongo, como é a primeira vez acessando basta estar no terminal, na pasta raiz desse projeto e digitar:
+  1. Localmente: `./scripts/evaluate.sh create`.
+  2. Docker: `./scripts/docker_evaluate.sh`.
+
+  Após isso o mongo está populado com os itens usados durante a aplicação dos requisitos, caso seja necessário resetar as informações do bando, basta rodar o comando:
+  1. Localmente: `./scripts/resetdb.sh`.
+  2. Docker: `./scripts/docker_resetdb.sh`.
+
+  Agora para testar os comando é possivel via o terminal acessando `docker exec -it mongodb_commerce mongo` ou usando alguma ferramenta de preferencia para conectar ao mongodb e usar os comandos. Normalmente uso o [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
 
 </details>
 
